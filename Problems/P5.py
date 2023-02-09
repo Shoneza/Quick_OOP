@@ -67,6 +67,6 @@ if __name__ == '__main__':
             elif line.startswith('dequeue'):
                 deq = q.dequeue()
                 print(f'Dequeue {deq} from queue')
-        # q.print_size() Use this to print the size of the queue
+        q.print_size()
     print(f'Is queue empty: {q.is_empty()}')
-    # q.print_queue()
+    q.print_queue()
